@@ -4,9 +4,10 @@ phases:
   install:
     commands:
       - npm install
-  build:
-    commands:
-      - npm run build
+  # Remove the build phase if you don’t need it
+  # build:
+  #   commands:
+  #     - npm run build
 
 artifacts:
   files:
